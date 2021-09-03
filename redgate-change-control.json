@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "name": "rccdemo",
+  "id": "847047e8-14b9-4fbf-b905-c542c7d956dd",
+  "databaseType": "SqlServer",
+  "schemas": [
+    "dbo"
+  ],
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ]
+  }
+}

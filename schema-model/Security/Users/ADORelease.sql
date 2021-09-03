@@ -1,0 +1,3 @@
+CREATE USER [ADORelease] FOR LOGIN [ADORelease]
+GO
+GRANT CONNECT TO [ADORelease]
